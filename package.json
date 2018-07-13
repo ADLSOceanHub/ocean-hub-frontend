@@ -3,6 +3,7 @@
   "homepage": "https://create-react-app-redux.now.sh",
   "scripts": {
     "deploy": "now && now alias",
+    "flow": "flow",
     "start": "react-scripts start",
     "now-start": "serve -s ./build",
     "build": "react-scripts build",
@@ -11,11 +12,13 @@
     "precommit": "pretty-quick --staged"
   },
   "devDependencies": {
+    "flow-bin": "^0.76.0",
     "prettier": "1.13.7",
     "react-scripts": "1.1.4"
   },
   "dependencies": {
     "connected-react-router": "4.3.0",
+    "history": "^4.7.2",
     "react": "16.4.1",
     "react-dom": "16.4.1",
     "react-redux": "5.0.7",
@@ -23,7 +26,6 @@
     "react-router-dom": "4.3.1",
     "redux": "4.0.0",
     "redux-thunk": "2.3.0",
-    "sanitize.css": "6.0.0",
     "serve": "9.2.0"
   }
 }
