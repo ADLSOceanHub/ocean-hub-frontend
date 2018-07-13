@@ -8,6 +8,7 @@ import store, { history } from './store';
 import App from './containers/app';
 
 import './index.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const target = document.querySelector('#root');
 
