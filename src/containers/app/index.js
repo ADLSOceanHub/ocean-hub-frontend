@@ -5,9 +5,9 @@ import About from '../about'
 
 const App = () => (
   <div>
-    <header>
-      <Link to="/">Home</Link>
-      <Link to="/about-us">About</Link>
+    <header class="top-nav">
+      <Link to="/">List View</Link>
+      <Link to="/about-us">Map View</Link>
     </header>
 
     <button type="button" className="btn btn-default">Default</button>

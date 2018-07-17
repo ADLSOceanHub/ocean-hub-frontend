@@ -9,9 +9,11 @@ import {
   decrementAsync
 } from '../../modules/counter'
 
+
 const Home = props => (
   <div>
-    <h1>Home</h1>
+    <h1>Ocean Hub</h1>
+    <h2>Experience the beauty of the ocean</h2>
     <p>Count: {props.count}</p>
 
     <p>
